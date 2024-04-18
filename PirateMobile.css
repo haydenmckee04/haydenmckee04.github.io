@@ -149,11 +149,6 @@ nav ul li {
 	background-color: rgb(220,220,220); 
 }
 
-html, body {
-	height: 100%; 
-	width: 100%;
-} 
-
 header { 
 	width: 105%;
 	margin: 0px -10px 0px -10px; 
