@@ -38,10 +38,6 @@ p {
   font-family: Arial;
   font-size: 1.0em;
   color: #000000;
-  border-style: solid;
-  border-width: 3px;
-  border-color: #000000;
-  border-radius: 5px;
 }
 body {
 	border-style: solid;
@@ -122,7 +118,7 @@ nav ul {
 
 nav ul li {
 	background-color: rgb(175,175,175);  
-	width: 90%
+	width: 198px
 } 
 
 nav a {
@@ -159,10 +155,6 @@ nav ul li {
 html, body {
 	height: 100%; 
 	width: 100%;
-	border-style: solid;
-	border-width: 3px;
-	border-color: #000000;
-	border-radius: 5px;
 } 
 
 header { 
