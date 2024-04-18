@@ -102,6 +102,7 @@ header {
 }
 
 nav {
+	display: none;
 	width: 250px; 
 	float: left;
 	padding-bottom: 0px;
