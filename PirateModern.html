@@ -1,50 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Modern Piracy</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="PirateDesktop.css" media="screen and (min-width: 481px)" /> 
-		<link rel="stylesheet" type="text/css" href="PirateMobile.css" media="screen and (max-width:480px)" />
-		<h1>Modern Pirate Activities</h1>
-		<input class="menu-chkbx" type="checkbox" id="menu-chkbx" />
-		<label class="menu-burger" for="menu-chkbx"> 
-			<span class="hamburger"></span>
-		</label>
-		<nav class="menu">
-			<ul>
-				<li class=menuList><a style="text-decoration: none" href="index.html">Home</a></li>
-				<li class=menuList><a style="text-decoration: none" href="PirateBiography.html">Pirate Biographies</a></li>
-				<li class=menuList><a style="text-decoration: none" href="PirateShip.html">Pirate Ships</a></li>
-				<li class=menuList><a style="text-decoration: none" href="PirateBountyReward.html">Bounties and Rewards</a></li>
-				<li class=menuList><a style="text-decoration: none" href="PirateHistoryImpact.html">Historical Impact</a></li>
-				<li class=menuList><a style="text-decoration: none" href="PirateModern.html">Modern Day Pirates</a></li>
-			</ul>
-		</nav>
-    </head>
-	<body>
-        <p>
-				Modern pirates, unlike the romanticized figures of history, are often ruthless criminals who operate in various parts 
-			of the world's oceans, particularly in areas known for shipping routes and maritime trade. These pirates are not 
-			swashbuckling adventurers but rather organized groups or individuals who use advanced weaponry, technology, and tactics 
-			to carry out their illegal activities.<br><br>
-			
-				One of the most infamous regions for modern piracy is the Gulf of Aden, off the coast of Somalia, where pirates have 
-			targeted commercial vessels, oil tankers, and even cruise ships. These pirates often hijack ships for ransom, steal 
-			cargo, or engage in other illicit activities such as smuggling weapons or drugs. The piracy problem in this region 
-			has led to international efforts to patrol and secure these waters, including naval task forces and security measures 
-			implemented by shipping companies.<br><br>
-			
-				In Southeast Asia, particularly in the Malacca Strait and the waters around Indonesia, piracy remains a significant concern. 
-			Pirates in this region target smaller vessels for robbery, kidnapping crew members for ransom, or stealing cargo. The 
-			challenge of combating piracy in Southeast Asia is compounded by the vastness of the area and the complex maritime environment.<br><br>
-			
-				Modern piracy is not confined to specific regions, as incidents have been reported in the waters off West Africa, the Caribbean, 
-			and even in parts of the South China Sea. These pirates often take advantage of weak maritime law enforcement, political instability, 
-			and economic desperation in some areas to carry out their illegal activities.<br><br>
-			
-				Efforts to combat modern piracy involve a combination of international cooperation, improved maritime security measures, legal 
-			frameworks to prosecute pirates, and initiatives to address the root causes that drive individuals or groups to engage in piracy, 
-			such as poverty, lack of economic opportunities, and political instability.
-		</p>
-    </body>
+<head>
+    <title>Modern Day Pirates</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Modern Day Pirates</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="PirateBiography.html">Pirate Biographies</a></li>
+                <li><a href="PirateShip.html">Pirate Ships</a></li>
+                <li><a href="PirateBountyReward.html">Bounties and Rewards</a></li>
+                <li><a href="PirateHistoryImpact.html">Historical Impact</a></li>
+                <li><a href="PirateModern.html">Modern Day Pirates</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+		<section>
+            <h2>Exploring Modern Day Pirates</h2>
+			<p>The impact of modern-day piracy is significant, affecting global trade, maritime insurance costs, and the safety of seafarers. Piracy incidents can lead to disruptions in shipping routes, delays in cargo delivery, and increased insurance premiums for shipping companies. Furthermore, the threat of piracy creates challenges for naval forces and law enforcement agencies tasked with patrolling vast maritime territories and coordinating international responses to piracy threats. Efforts to combat modern piracy involve a combination of naval patrols, surveillance technologies, legal frameworks such as the United Nations Convention on the Law of the Sea, and international cooperation through initiatives like the Contact Group on Piracy off the Coast of Somalia (CGPCS).</p>
+            <div class="impact-item">
+                <h3 onclick="toggleDescription(1)">Types of Modern Pirates</h3>
+                <p class="description" id="description1"><img class=flipbookImage src=https://listverse.com/wp-content/uploads/2017/02/Maersk-Alabama-Hijacking.jpg><br>Modern pirates can be categorized into different types, including opportunistic pirates, organized crime groups, and state-sponsored actors. They operate in various regions, targeting commercial vessels, fishing boats, and even cruise ships for ransom, theft, or illegal activities.</p>
+            </div>
+            <div class="impact-item">
+                <h3 onclick="toggleDescription(2)">Hotspots of Modern Piracy</h3>
+                <p class="description" id="description2"><img class=flipbookImage src=https://media.licdn.com/dms/image/C4E12AQEA_gV5AdLtrg/article-cover_image-shrink_600_2000/0/1593406025354?e=2147483647&v=beta&t=I9guApV2KXCdClW7Oh6ryYjbnX9W4wdH647t-db-t8s><br>Areas such as the Gulf of Aden, Southeast Asia, and the waters off the coast of West Africa are known for frequent pirate activities. Factors such as weak law enforcement, political instability, and lucrative opportunities contribute to the prevalence of piracy in these regions.</p>
+            </div>
+            <div class="impact-item">
+                <h3 onclick="toggleDescription(3)">Impact on Maritime Security</h3>
+                <p class="description" id="description3"><img class=flipbookImage src=https://africacenter.org/wp-content/uploads/2015/11/Combating-Piracy-wide-978x427.jpg><br>Modern piracy poses significant challenges to maritime security, leading to increased security measures, international naval patrols, and collaborative efforts to combat piracy. The threat of piracy impacts global trade routes, shipping operations, and the safety of seafarers.</p>
+            </div>
+            <div class="impact-item">
+                <h3 onclick="toggleDescription(4)">Response and Countermeasures</h3>
+                <p class="description" id="description4"><img class=flipbookImage src=https://southeastasiaglobe.com/wp-content/uploads/2019/07/8e68774c.jpg><br>Nations and organizations have implemented countermeasures such as enhanced surveillance, maritime security agreements, and legal frameworks to prosecute pirates. Strategies like onboard security teams, secure communication systems, and risk assessments are deployed to mitigate pirate threats.</p>
+            </div>
+        </section>   
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Pirate Website</p>
+    </footer>
+	<script src="impact.js"></script>
+</body>
 </html>
